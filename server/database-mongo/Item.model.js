@@ -6,7 +6,10 @@ const user = new mongoose.Schema({
   password : String,
   email : String,
   phone : Number,
-
+  playname : String,
+  playnumber : Number,
+  playposition : String
+  
 });
 
 const Item = mongoose.model("Item", user);

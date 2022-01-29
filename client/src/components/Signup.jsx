@@ -10,7 +10,7 @@ const Signup = (props)=>{
             <label >email: </label>
             <input onChange={props.signUpInput} type="email" name="email" />
             <label >phone: </label>
-            <input onChange={props.signUpInput} type="number" name="phone" />
+            <input onChange={props.signUpInput} type="number" name="phone" /><br/>
             <button onClick={props.signUp}>Sign Up</button>
         </div>
     )
